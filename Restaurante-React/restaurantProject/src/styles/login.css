@@ -1,0 +1,51 @@
+.contenido {
+    display: flex;
+}
+
+.inicio {
+    padding: 50px;
+    box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.192);
+    margin: 150px;
+}
+
+.inicio h2 {
+    text-align: center;
+    margin-bottom: 28px;
+    font-weight: bolder;
+    letter-spacing: .7px;
+}
+
+.formulario {
+    margin: 20px;
+}
+
+.formulario small {
+    font-weight: bold;
+    color: rgb(245, 50, 16);
+}
+
+/*BTN ENVIAR*/
+.boton-enviar {
+    margin-top: 40px;
+    width: 100%;
+    border: none;
+    padding: 5px 0px;
+    background-color: #304EEC;
+    color: white;
+}
+
+.contenido-img img {
+    height: 800px;
+    width: auto;
+}
+
+@media (max-width: 1225px) {
+    .contenido-img {
+        display: none;
+    }
+
+    .inicio {
+        padding: 30px;
+        margin: 150px 50px;
+    }
+  }

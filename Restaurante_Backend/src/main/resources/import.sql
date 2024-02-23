@@ -1,0 +1,1 @@
+INSERT INTO users(name, email, password, phone_number) VALUES('admin', 'admin@uts.edu.co', 'admin123', '123456789');
